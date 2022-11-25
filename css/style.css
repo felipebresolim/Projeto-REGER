@@ -15,7 +15,7 @@ ul{
 }
 
 .redes-sociais ul li{
-    margin-left: 20px;
+    margin-left: 15px;
     display: inline-block;
     float: right;
     list-style: none;
@@ -78,33 +78,6 @@ h2{
 .menu{
     width: 70%;
     float: left;
-}
-
-.busca{
-    margin-top: 10px;
-    text-align: center;
-    width: 240px;
-    height: 35px;
-    float: left;
-    background: rgb(0, 0, 0);
-    border-radius: 50px;
-}
-
-.busca input{
-    height: 25px;
-    padding: 5px;
-    width: 200px;
-    margin-top: 6px;
-}
-
-.buscar-text{
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    color: #fff;
-    font-size: 16px;
-    line-height: 30px;
 }
 
 .col-100{
@@ -176,9 +149,11 @@ li.slick-active button{
 .texto-projeto h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 28px;
+    text-align: center;
 }
 
 .texto-projeto p{
+    text-align: justify;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -194,6 +169,19 @@ li.slick-active button{
 }
 
 .texto-dicas p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.texto-susten h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.texto-susten p{
+    text-align: justify;
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
